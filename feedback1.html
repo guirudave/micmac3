@@ -1,0 +1,17 @@
+<div class="feedback-pop">
+			<h2 class="col1-text">leave a feedback</h2>
+		    
+		    <div class="widget contact-form" id="contact">
+					  		<mark id="message"></mark>
+			        		<form method="post" action="contacts.php" name="contactform" id="contactform">
+			        			<input class="input-large" name="name" type="text" placeholder="Name">
+								<input class="input-large" name="surname" type="text" placeholder="Surname">
+			        			<input class="input-large" name="email" type="email" placeholder="E-mail *" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" />
+								<input class="input-large" name="subject" type="text" placeholder="Subject">
+			        			<textarea name="comments" id="comments" spellcheck="true" rows="5" class="input-large" placeholder="Message *"></textarea>
+			        			<input class="btn col1 submit" type="submit" id="submit" value="Send Message" />
+			        		</form>
+			          	</div>
+</div>
+
+<script src="js/validate.js"></script>
